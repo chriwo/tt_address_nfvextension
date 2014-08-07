@@ -53,13 +53,9 @@ $tempColumns = array (
 	),
 );
 
-
-t3lib_div::loadTCA('tt_address');
-
-
-t3lib_extMgm::addTCAcolumns('tt_address',$tempColumns,1);
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns('tt_address',$tempColumns,1);
 
 $TCA['tt_address']['ctrl']['dividers2tabs'] = true;
-t3lib_extMgm::addToAllTCAtypes('tt_address','--div--;Vereinsinfo,tx_ttaddressnfvextension_color;;;;1-1-1, tx_ttaddressnfvextension_address2, tx_ttaddressnfvextension_zip2, tx_ttaddressnfvextension_city2, tx_ttaddressnfvextension_phone2');
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes('tt_address','--div--;Vereinsinfo,tx_ttaddressnfvextension_color;;;;1-1-1, tx_ttaddressnfvextension_address2, tx_ttaddressnfvextension_zip2, tx_ttaddressnfvextension_city2, tx_ttaddressnfvextension_phone2');
 
 ?>

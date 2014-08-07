@@ -1,3 +1,8 @@
+2014-08-07 Christian Wolfram <c.wolfram@ideenwerft.com>
+
+    * change internal TYPO3 functions to namespace functions of TYPO3 6.2
+    * remove function call loadTCA()
+
 2012-03-25 Michael Prohm  <michael@prohm.de>
 
 	* initial code generated with kickstarter
