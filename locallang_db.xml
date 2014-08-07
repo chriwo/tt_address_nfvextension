@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'tt_address_nfvextension'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_address.tx_ttaddressnfvextension_color">Vereinsfarben</label>
+			<label index="tt_address.tx_ttaddressnfvextension_address2">Strasse Ansprechpartner</label>
+			<label index="tt_address.tx_ttaddressnfvextension_zip2">Postleitzahl Ansprechpartner</label>
+			<label index="tt_address.tx_ttaddressnfvextension_city2">Ort Ansprechpartner</label>
+			<label index="tt_address.tx_ttaddressnfvextension_phone2">Telefon Spielstätte</label>
+		</languageKey>
+	</data>
+</T3locallang>
